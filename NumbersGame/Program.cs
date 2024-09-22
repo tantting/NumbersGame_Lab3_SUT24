@@ -1,4 +1,5 @@
-﻿namespace NumbersGame;
+﻿//SUT24, Jenny-Ann Hayward
+namespace NumbersGame;
 
 class Program
 {
