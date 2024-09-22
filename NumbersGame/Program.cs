@@ -24,7 +24,7 @@ class Program
         int numberTried = 0;
         bool wonGame = false;
 
-        while (numberTried <= 5 || !wonGame)
+        while (numberTried <= 5 && !wonGame)
         {
             bool testAnswer = Int32.TryParse(Console.ReadLine(), out int guessedNum);
 
